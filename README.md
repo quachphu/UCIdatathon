@@ -110,10 +110,10 @@ pip install -r requirements.txt
 ## Model Performance
 
 Our best-performing model achieved:
-- Accuracy: 86.70%
-- Precision: 45.59%
-- Recall: 95.68%
-- F1 Score: 61.76%
+- Accuracy: 92.93%
+- Precision: 70.07%
+- Recall: 65.13%
+- F1 Score: 67.51%
 
 The high recall indicates we successfully identify the vast majority of drivers who will take their first trip.
 
