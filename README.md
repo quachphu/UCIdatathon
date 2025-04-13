@@ -158,6 +158,9 @@ Implementing these recommendations could:
 ## Acknowledgements and Presentation Slide 
 
 This dataset was provided as part of a take-home assignment in the recruitment process for data science positions at Uber. The analysis and models are for educational purposes.
+
 Presentation Slide : https://docs.google.com/presentation/d/1X3fqHPpnkzPW_yd7OMVyDSamq9uDRc9s0ZLmzXUB5Hs/edit?usp=sharing
+
 DevPost Link : https://devpost.com/software/zotzotzot-predicting-driver-activation/joins/DITk_wOi4PpacQiDfKwYvQ
+
 Deep Note : https://deepnote.com/workspace/Gary-20031a52-8762-4423-8108-a8cf79af7426/project/Datathon-2025-d0319f7c-57fc-43b6-be9a-9141d1afb87b/notebook/a4c989398d63422791a244f330e1b77f
