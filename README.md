@@ -155,7 +155,7 @@ Implementing these recommendations could:
 4. **Dynamic model updates** with continuous retraining
 5. **Personalized intervention optimization** based on driver characteristics
 
-## Acknowledgements and Presentation Slide 
+## Acknowledgements and Presentation  
 
 This dataset was provided as part of a take-home assignment in the recruitment process for data science positions at Uber. The analysis and models are for educational purposes.
 
