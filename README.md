@@ -1,40 +1,4 @@
 # Uber Driver Conversion Prediction
-    %% User input and session management
-    A[User opens Streamlit app] --> B[Streamlit sidebar: enter Groq API key]
-    B --> C{Is API key in session_state?}
-    C -- No --> D[Prompt user to enter API key]
-    C -- Yes --> E[Load session_state.messages]
-    E --> F[Render existing chat messages]
-    F --> G[User types a new prompt]
-
-    %% Message handling
-    G --> H[Append user message to session_state.messages]
-    H --> I[Display user message]
-
-    %% LLM & tools initialization
-    I --> J[Initialize ChatGroq LLM with API key]
-    J --> K[Instantiate tools]
-    K --> K1[DuckDuckGoSearchRun]
-    K --> K2[ArxivQueryRun]
-    K --> K3[WikipediaQueryRun]
-    K1 & K2 & K3 --> L[initialize_agent(tools, llm, ZERO_SHOT_REACT)]
-
-    %% Agent execution
-    L --> M[Run agent.run(messages, callbacks)]
-    M --> N{Agent decides action}
-    N -- Search --> O[Call DuckDuckGoSearchRun]
-    N -- Arxiv  --> P[Call ArxivQueryRun]
-    N -- Wiki   --> Q[Call WikipediaQueryRun]
-    O --> R[Fetch web search results]
-    P --> S[Fetch Arxiv abstracts]
-    Q --> T[Fetch Wikipedia summaries]
-    R & S & T --> U[Agent ingests tool outputs]
-
-    %% Response generation & display
-    U --> V[Agent generates final text response]
-    V --> W[StreamlitCallbackHandler streams “thinking”]
-    W --> X[Append assistant response to session_state.messages]
-    X --> Y[Display assistant response in chat UI]
 
 ## Project Overview
 
